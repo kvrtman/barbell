@@ -3,17 +3,17 @@
 Concentrated capital allocation. One anchor, one engine, no filler.
 This folder is the single source of truth for the strategy: what we hold, why we hold it, and the rules we execute by.
 
-**Snapshot date: 2026-07-04** (prices as of 2026-07-03 PSE close — update whenever positions or prices change)
+**Snapshot date: 2026-07-09** (ALTER at 07-09 close, RCR at 07-08 close — update whenever positions or prices change)
 
 ## Current State
 
-| Leg | Ticker | Role | Held | Target | Progress | Px (07/03) | Value |
+| Leg | Ticker | Role | Held | Target | Progress | Px (07/09) | Value |
 |---|---|---|---:|---:|---:|---:|---:|
-| Anchor | RCR | Quarterly cash vault | 7,817 | 10,000 | 78.2% | ₱7.30 | ₱57,064 |
-| Engine | ALTER | Concentrated growth | 124,585 | 500,000 | 24.9% | ₱0.78 | ₱97,176 |
-| | | | | | | **Total** | **₱154,240** |
+| Anchor | RCR | Quarterly cash vault | 7,817 | 10,000 | 78.2% | ₱7.28 | ₱56,908 |
+| Engine | ALTER | Concentrated growth | 124,585 | 500,000 | 24.9% | ₱0.76 | ₱94,685 |
+| | | | | | | **Total** | **₱151,593** |
 
-Allocation today: **63% engine / 37% anchor**. At full targets (current prices) it becomes ~84/16 — that is the designed shape of the barbell, not drift.
+Allocation today: **62% engine / 38% anchor**. At full targets (current prices) it becomes ~84/16 — that is the designed shape of the barbell, not drift.
 
 ## The Loop (self-funding flywheel)
 
@@ -26,7 +26,7 @@ RCR pays ₱0.11/sh per quarter
   → repeat every quarter until 500,000 shares
 ```
 
-The dividend loop alone buys ~3,968 ALTER shares/year at ₱0.78. The loop is the flywheel; fresh capital is the fuel — and the audit (playbook §9) says the pace decides whether you reach the target inside the re-rate window. See the dashboard's accumulation race.
+The dividend loop alone buys ~4,073 ALTER shares/year at ₱0.76. The loop is the flywheel; fresh capital is the fuel — and the audit (playbook §9) says the pace decides whether you reach the target inside the re-rate window. See the dashboard's accumulation race.
 
 ## Files
 
